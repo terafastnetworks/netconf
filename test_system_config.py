@@ -4,9 +4,9 @@ from lib.config import get_config_arg
 
 sysDict = {
 
-    'name': 'polatis,optical,switch',
-    'password': 'polatis,optical,switch',
-    'group': 'admin,view,user',
+    'name': 'optical,polatis,switch',
+    'password': 'optical,polatis,switch',
+    'group': 'view,admin,user',
     'interface_status':
     get_config_arg('system_config', 'interface_status'),
     'interface':
