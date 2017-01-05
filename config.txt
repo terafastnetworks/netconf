@@ -19,4 +19,4 @@ interface = eth0,10.99.99.225,0.0.0.0,255.255.255.0,10.99.99.255,eth1,192.168.1.
 manufacturer = Polatis
 serial_number = 1533
 model_name = N-OST-48x48-HA1-DMHEV-050
-software_version = 6.5.1.7
+software_version = 6.5.2.12
