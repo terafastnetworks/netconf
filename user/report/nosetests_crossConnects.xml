@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite name="nosetests" tests="1" errors="1" failures="0" skip="0"><testcase classname="&lt;nose.suite" name="ContextSuite context=test_oxc_opr&gt;:setup" time="0.000"><error type="ncclient.operations.rpc.RPCError" message="{'info': None, 'severity': 'error', 'tag': 'access-denied', 'path': None, 'message': None, 'type': 'protocol'}"><![CDATA[Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/nose/suite.py", line 208, in run
+    self.setUp()
+  File "/usr/lib/python2.7/dist-packages/nose/suite.py", line 291, in setUp
+    self.setupContext(ancestor)
+  File "/usr/lib/python2.7/dist-packages/nose/suite.py", line 314, in setupContext
+    try_run(context, names)
+  File "/usr/lib/python2.7/dist-packages/nose/util.py", line 471, in try_run
+    return func()
+  File "/home/polatis/netconf/user/test_crossConnects.py", line 26, in setUpClass
+    cls.oxc.cleanup_existing_connections(file_name='cleanup.xml')
+  File "/home/polatis/netconf/user/lib/crossconnects.py", line 164, in cleanup_existing_connections
+    xmldata = sw_mgr.edit_config(target='running', config=xmlstr)
+  File "/home/polatis/netconf/user/ncclient/manager.py", line 157, in wrapper
+    return self.execute(op_cls, *args, **kwds)
+  File "/home/polatis/netconf/user/ncclient/manager.py", line 227, in execute
+    raise_mode=self._raise_mode).request(*args, **kwds)
+  File "/home/polatis/netconf/user/ncclient/operations/edit.py", line 67, in request
+    return self._request(node)
+  File "/home/polatis/netconf/user/ncclient/operations/rpc.py", line 338, in _request
+    raise self._reply.error
+RPCError: {'info': None, 'severity': 'error', 'tag': 'access-denied', 'path': None, 'message': None, 'type': 'protocol'}
+]]></error></testcase></testsuite>

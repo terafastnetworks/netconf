@@ -1,0 +1,22 @@
+[login_credentials]
+host = 10.99.99.230
+port = 830
+user_name = sun
+password = root
+cli_username = root
+cli_password = P0lat1s
+timeout = 60
+
+[cross_connects]
+ingress_ports_range = 1-384
+egress_ports_range = 385-768
+
+[system_config]
+interface_status = eth0,10.99.99.230,10.99.99.254,255.0.0.0,10.255.255.255,00:50:c2:2b:49:5a,eth1,172.16.100.1,172.16.1.1,255.255.0.0,172.16.255.255,00:50:c2:2b:49:5b
+interface = eth0,10.99.99.230,10.99.99.254,255.0.0.0,10.255.255.255,eth1,172.16.100.1,172.16.1.1,255.255.0.0,172.16.255.255
+
+[product_information]
+manufacturer = Polatis
+serial_number = 2105
+model_name = N-VST-384x384-LU1-DMHNS-400
+software_version = 6.5.2.12

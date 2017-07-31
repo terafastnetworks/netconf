@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite name="nosetests" tests="17" errors="0" failures="2" skip="0"><testcase classname="test_ports.test_ports_opr" name="test_create_invalid_port_label_using_above_max_limit" time="1.080"><failure type="exceptions.AssertionError" message="'FAIL' != 'PASS'&#10;-------------------- &gt;&gt; begin captured logging &lt;&lt; --------------------&#10;polatis: INFO: -----[ pass xml for edit-config operation ]-----&#10;&#10;&#10;polatis: INFO: xmlstr : &#10;&#10;&lt;?xml version=&quot;1.0&quot; ?&gt;&#10;&lt;config&gt;&#10; &lt;ports xmlns=&quot;http://www.polatis.com/yang/optical-switch&quot;&gt;&#10;  &lt;port xmlns:ns=&quot;urn:ietf:params:xml:ns:netconf:base:1.0&quot;&gt;&#10;   &lt;port-id&gt;1&lt;/port-id&gt;&#10;   &lt;port-label&gt;portlabelusingmaximumlimit1234533&lt;/port-label&gt;&#10;  &lt;/port&gt;&#10; &lt;/ports&gt;&#10;&lt;/config&gt;&#10;&#10;&#10;polatis: INFO: -----[ edit-config - response from the switch ]-----&#10;&#10;&#10;&lt;?xml version=&quot;1.0&quot; ?&gt;&#10;&lt;rpc-reply message-id=&quot;urn:uuid:8f3a0d5c-cdad-11e6-986e-005056a06866&quot; xmlns=&quot;urn:ietf:params:xml:ns:netconf:base:1.0&quot; xmlns:nc=&quot;urn:ietf:params:xml:ns:netconf:base:1.0&quot;&gt;&#10; &lt;ok/&gt;&#10;&lt;/rpc-reply&gt;&#10;&#10;&#10;&#10;polatis: INFO: gvn_port_ids : ['1']&#10;polatis: INFO: gvn_port_labels : ['portlabelusingmaximumlimit1234533']&#10;&#10;&#10;polatis: INFO: Invalid case is passed : FAIL&#10;&#10;&#10;--------------------- &gt;&gt; end captured logging &lt;&lt; ---------------------"><![CDATA[  File "/usr/lib/python2.7/unittest/case.py", line 331, in run
+    testMethod()
+  File "/usr/lib/python2.7/dist-packages/nose/case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "/home/polatis/netconf/admin/test_ports.py", line 137, in test_create_invalid_port_label_using_above_max_limit
+    port_labels=portsDict['invalid_port_label_with_max_lim'], operation = 'get', opr = 'create')
+  File "/home/polatis/netconf/admin/lib/ports.py", line 417, in editconfig_create_invalid_port_label
+    nose.tools.assert_equals('FAIL', result)
+  File "/usr/lib/python2.7/unittest/case.py", line 515, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/usr/lib/python2.7/unittest/case.py", line 508, in _baseAssertEqual
+    raise self.failureException(msg)
+'\'FAIL\' != \'PASS\'\n-------------------- >> begin captured logging << --------------------\npolatis: INFO: -----[ pass xml for edit-config operation ]-----\n\n\npolatis: INFO: xmlstr : \n\n<?xml version="1.0" ?>\n<config>\n <ports xmlns="http://www.polatis.com/yang/optical-switch">\n  <port xmlns:ns="urn:ietf:params:xml:ns:netconf:base:1.0">\n   <port-id>1</port-id>\n   <port-label>portlabelusingmaximumlimit1234533</port-label>\n  </port>\n </ports>\n</config>\n\n\npolatis: INFO: -----[ edit-config - response from the switch ]-----\n\n\n<?xml version="1.0" ?>\n<rpc-reply message-id="urn:uuid:8f3a0d5c-cdad-11e6-986e-005056a06866" xmlns="urn:ietf:params:xml:ns:netconf:base:1.0" xmlns:nc="urn:ietf:params:xml:ns:netconf:base:1.0">\n <ok/>\n</rpc-reply>\n\n\n\npolatis: INFO: gvn_port_ids : [\'1\']\npolatis: INFO: gvn_port_labels : [\'portlabelusingmaximumlimit1234533\']\n\n\npolatis: INFO: Invalid case is passed : FAIL\n\n\n--------------------- >> end captured logging << ---------------------']]></failure><system-out><![CDATA[
+
+       +-----------------------------------------------------------+       
+       |    test_create_invalid_port_label_using_above_max_limit   |
+       +-----------------------------------------------------------+       
+
+
+
+
+
+]]></system-out></testcase><testcase classname="test_ports.test_ports_opr" name="test_create_invalid_port_label_using_special_char" time="0.778"><failure type="exceptions.AssertionError" message="'FAIL' != 'PASS'&#10;-------------------- &gt;&gt; begin captured logging &lt;&lt; --------------------&#10;polatis: INFO: -----[ pass xml for edit-config operation ]-----&#10;&#10;&#10;polatis: INFO: xmlstr : &#10;&#10;&lt;?xml version=&quot;1.0&quot; ?&gt;&#10;&lt;config&gt;&#10; &lt;ports xmlns=&quot;http://www.polatis.com/yang/optical-switch&quot;&gt;&#10;  &lt;port xmlns:ns=&quot;urn:ietf:params:xml:ns:netconf:base:1.0&quot;&gt;&#10;   &lt;port-id&gt;1&lt;/port-id&gt;&#10;   &lt;port-label&gt;@portlabel$&lt;/port-label&gt;&#10;  &lt;/port&gt;&#10; &lt;/ports&gt;&#10;&lt;/config&gt;&#10;&#10;&#10;polatis: INFO: -----[ edit-config - response from the switch ]-----&#10;&#10;&#10;&lt;?xml version=&quot;1.0&quot; ?&gt;&#10;&lt;rpc-reply message-id=&quot;urn:uuid:8fdf9150-cdad-11e6-986e-005056a06866&quot; xmlns=&quot;urn:ietf:params:xml:ns:netconf:base:1.0&quot; xmlns:nc=&quot;urn:ietf:params:xml:ns:netconf:base:1.0&quot;&gt;&#10; &lt;ok/&gt;&#10;&lt;/rpc-reply&gt;&#10;&#10;&#10;&#10;polatis: INFO: gvn_port_ids : ['1']&#10;polatis: INFO: gvn_port_labels : ['@portlabel$']&#10;&#10;&#10;polatis: INFO: Invalid case is passed : FAIL&#10;&#10;&#10;--------------------- &gt;&gt; end captured logging &lt;&lt; ---------------------"><![CDATA[  File "/usr/lib/python2.7/unittest/case.py", line 331, in run
+    testMethod()
+  File "/usr/lib/python2.7/dist-packages/nose/case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "/home/polatis/netconf/admin/test_ports.py", line 144, in test_create_invalid_port_label_using_special_char
+    port_labels=portsDict['invalid_port_label_with_special_char'], operation = 'get', opr = 'create')
+  File "/home/polatis/netconf/admin/lib/ports.py", line 417, in editconfig_create_invalid_port_label
+    nose.tools.assert_equals('FAIL', result)
+  File "/usr/lib/python2.7/unittest/case.py", line 515, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/usr/lib/python2.7/unittest/case.py", line 508, in _baseAssertEqual
+    raise self.failureException(msg)
+'\'FAIL\' != \'PASS\'\n-------------------- >> begin captured logging << --------------------\npolatis: INFO: -----[ pass xml for edit-config operation ]-----\n\n\npolatis: INFO: xmlstr : \n\n<?xml version="1.0" ?>\n<config>\n <ports xmlns="http://www.polatis.com/yang/optical-switch">\n  <port xmlns:ns="urn:ietf:params:xml:ns:netconf:base:1.0">\n   <port-id>1</port-id>\n   <port-label>@portlabel$</port-label>\n  </port>\n </ports>\n</config>\n\n\npolatis: INFO: -----[ edit-config - response from the switch ]-----\n\n\n<?xml version="1.0" ?>\n<rpc-reply message-id="urn:uuid:8fdf9150-cdad-11e6-986e-005056a06866" xmlns="urn:ietf:params:xml:ns:netconf:base:1.0" xmlns:nc="urn:ietf:params:xml:ns:netconf:base:1.0">\n <ok/>\n</rpc-reply>\n\n\n\npolatis: INFO: gvn_port_ids : [\'1\']\npolatis: INFO: gvn_port_labels : [\'@portlabel$\']\n\n\npolatis: INFO: Invalid case is passed : FAIL\n\n\n--------------------- >> end captured logging << ---------------------']]></failure><system-out><![CDATA[
+
+       +--------------------------------------------------------+       
+       |    test_create_invalid_port_label_using_special_char   |
+       +--------------------------------------------------------+       
+
+
+
+
+
+]]></system-out></testcase><testcase classname="test_ports.test_ports_opr" name="test_create_port_label_and_validate_with_get" time="4.828"><system-out><![CDATA[
+
+       +---------------------------------------------------+       
+       |    test_create_port_lable_and_validate_with_get   |
+       +---------------------------------------------------+       
+
+
+
+
+
+
+
+
+
+
+       +---------------------------------------------------------+       
+       |    test_delete_port_lable_label_and_validate_with_get   |
+       +---------------------------------------------------------+       
+
+
+
+
+
+
+
+
+]]></system-out></testcase><testcase classname="test_ports.test_ports_opr" name="test_create_port_label_and_validate_with_getconfig" time="4.705"><system-out><![CDATA[
+
+       +---------------------------------------------------------+       
+       |    test_create_port_label_and_validate_with_getconfig   |
+       +---------------------------------------------------------+       
+
+
+
+
+
+
+
+
+
+
+       +---------------------------------------------------------+       
+       |    test_delete_port_lable_label_and_validate_with_get   |
+       +---------------------------------------------------------+       
+
+
+
+
+
+
+
+
+]]></system-out></testcase><testcase classname="test_ports.test_ports_opr" name="test_delete_port_label_and_validate_with_get" time="2.300"><system-out><![CDATA[
+
+       +---------------------------------------------------------+       
+       |    test_delete_port_lable_label_and_validate_with_get   |
+       +---------------------------------------------------------+       
+
+
+
+
+
+
+
+
+]]></system-out></testcase><testcase classname="test_ports.test_ports_opr" name="test_delete_port_label_and_validate_with_getconfig" time="2.953"><system-out><![CDATA[
+
+       +---------------------------------------------------------+       
+       |    test_delete_port_label_and_validate_with_getconfig   |
+       +---------------------------------------------------------+       
+
+
+
+
+
+
+
+
+]]></system-out></testcase><testcase classname="test_ports.test_ports_opr" name="test_disable_port_state_and_validate_with_get" time="12.153"><system-out><![CDATA[
+
+       +----------------------------------------------------+       
+       |    test_disable_port_state_and_validate_with_get   |
+       +----------------------------------------------------+       
+
+
+
+
+
+
+
+
+]]></system-out></testcase><testcase classname="test_ports.test_ports_opr" name="test_disable_port_state_and_validate_with_get_port_status" time="12.059"><system-out><![CDATA[
+
+       +------------------------------------------------------------+       
+       |    test_disable_port_state_and_validate_with_port_status   |
+       +------------------------------------------------------------+       
+
+
+
+
+
+
+
+
+]]></system-out></testcase><testcase classname="test_ports.test_ports_opr" name="test_disable_port_state_and_validate_with_getconfig" time="11.805"><system-out><![CDATA[
+
+       +----------------------------------------------------------+       
+       |    test_disable_port_state_and_validate_with_getconfig   |
+       +----------------------------------------------------------+       
+
+
+
+
+
+
+
+
+]]></system-out></testcase><testcase classname="test_ports.test_ports_opr" name="test_enable_port_state_and_validate_with_get" time="12.761"><system-out><![CDATA[
+
+       +---------------------------------------------------+       
+       |    test_enable_port_state_and_validate_with_get   |
+       +---------------------------------------------------+       
+
+
+
+
+
+
+
+
+]]></system-out></testcase><testcase classname="test_ports.test_ports_opr" name="test_enable_port_state_and_validate_with_get_port_status" time="11.804"><system-out><![CDATA[
+
+       +-----------------------------------------------------------+       
+       |    test_enable_port_state_and_validate_with_port_status   |
+       +-----------------------------------------------------------+       
+
+
+
+
+
+
+
+
+]]></system-out></testcase><testcase classname="test_ports.test_ports_opr" name="test_enable_port_state_and_validate_with_getconfig" time="11.807"><system-out><![CDATA[
+
+       +---------------------------------------------------------+       
+       |    test_enable_port_state_and_validate_with_getconfig   |
+       +---------------------------------------------------------+       
+
+
+
+
+
+
+
+
+]]></system-out></testcase><testcase classname="test_ports.test_ports_opr" name="test_get_port_label_for_single_port" time="5.005"><system-out><![CDATA[
+
+       +------------------------------------------+       
+       |    test_get_port_label_for_single_port   |
+       +------------------------------------------+       
+
+
+
+
+
+
+
+
+
+
+       +---------------------------------------------------------+       
+       |    test_delete_port_lable_label_and_validate_with_get   |
+       +---------------------------------------------------------+       
+
+
+
+
+
+
+
+
+]]></system-out></testcase><testcase classname="test_ports.test_ports_opr" name="test_replace_port_label_and_validate_with_get" time="5.003"><system-out><![CDATA[
+
+       +----------------------------------------------------+       
+       |    test_replace_port_lable_and_validate_with_get   |
+       +----------------------------------------------------+       
+
+
+
+
+
+
+
+
+
+
+       +---------------------------------------------------------+       
+       |    test_delete_port_lable_label_and_validate_with_get   |
+       +---------------------------------------------------------+       
+
+
+
+
+
+
+
+
+]]></system-out></testcase><testcase classname="test_ports.test_ports_opr" name="test_replace_port_label_and_validate_with_getconfig" time="4.450"><system-out><![CDATA[
+
+       +----------------------------------------------------------+       
+       |    test_replace_port_label_and_validate_with_getconfig   |
+       +----------------------------------------------------------+       
+
+
+
+
+
+
+
+
+
+
+       +---------------------------------------------------------+       
+       |    test_delete_port_lable_label_and_validate_with_get   |
+       +---------------------------------------------------------+       
+
+
+
+
+
+
+
+
+]]></system-out></testcase><testcase classname="test_ports.test_ports_opr" name="test_set_invalid_port_state_using_numbers" time="0.720"><system-out><![CDATA[
+
+       +------------------------------------------------+       
+       |    test_set_invalid_port_state_using_numbers   |
+       +------------------------------------------------+       
+
+
+
+
+
+]]></system-out></testcase><testcase classname="test_ports.test_ports_opr" name="test_set_invalid_port_state_using_special_char" time="0.671"><system-out><![CDATA[
+
+       +-----------------------------------------------------+       
+       |    test_set_invalid_port_state_using_special_char   |
+       +-----------------------------------------------------+       
+
+
+
+
+
+]]></system-out></testcase></testsuite>

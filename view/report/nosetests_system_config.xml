@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite name="nosetests" tests="40" errors="0" failures="3" skip="0"><testcase classname="test_system_config.test_system_config_opr" name="test_create_invalid_startup_mode_with_mode_preserve" time="0.730"><system-out><![CDATA[
+
+       +----------------------------------------------------------+       
+       |    test_create_invalid_startup_mode_with_mode_preserve   |
+       +----------------------------------------------------------+       
+
+
+
+
+
+]]></system-out></testcase><testcase classname="test_system_config.test_system_config_opr" name="test_create_invalid_startup_mode_with_mode_volatile" time="0.475"><system-out><![CDATA[
+
+       +----------------------------------------------------------+       
+       |    test_create_invalid_startup_mode_with_mode_volatile   |
+       +----------------------------------------------------------+       
+
+
+
+
+
+]]></system-out></testcase><testcase classname="test_system_config.test_system_config_opr" name="test_create_invalid_user_max_lim_without_password_and_group" time="0.426"><system-out><![CDATA[
+
+       +------------------------------------------------------------------+       
+       |    test_create_invalid_user_max_lim_without_password_and_group   |
+       +------------------------------------------------------------------+       
+
+
+
+
+
+]]></system-out></testcase><testcase classname="test_system_config.test_system_config_opr" name="test_create_invalid_user_special_char_without_password_and_group" time="0.475"><system-out><![CDATA[
+
+       +-----------------------------------------------------------------------+       
+       |    test_create_invalid_user_special_char_without_password_and_group   |
+       +-----------------------------------------------------------------------+       
+
+
+
+
+
+]]></system-out></testcase><testcase classname="test_system_config.test_system_config_opr" name="test_create_startup_mode_with_mode_preserve_using_get" time="0.425"><system-out><![CDATA[
+
+       +--------------------------------------------------+       
+       |    test_create_startup_mode_with_mode_preserve   |
+       +--------------------------------------------------+       
+
+
+
+
+
+]]></system-out></testcase><testcase classname="test_system_config.test_system_config_opr" name="test_create_startup_mode_with_mode_preserve_using_getconfig" time="0.468"><system-out><![CDATA[
+
+       +--------------------------------------------------+       
+       |    test_create_startup_mode_with_mode_preserve   |
+       +--------------------------------------------------+       
+
+
+
+
+
+]]></system-out></testcase><testcase classname="test_system_config.test_system_config_opr" name="test_create_startup_mode_with_mode_volatile_using_get" time="0.468"><system-out><![CDATA[
+
+       +--------------------------------------------------+       
+       |    test_create_startup_mode_with_mode_volatile   |
+       +--------------------------------------------------+       
+
+
+
+
+
+]]></system-out></testcase><testcase classname="test_system_config.test_system_config_opr" name="test_create_startup_mode_with_mode_volatile_using_get_config" time="0.518"><system-out><![CDATA[
+
+       +--------------------------------------------------+       
+       |    test_create_startup_mode_with_mode_volatile   |
+       +--------------------------------------------------+       
+
+
+
+
+
+]]></system-out></testcase><testcase classname="test_system_config.test_system_config_opr" name="test_create_user_with_group_and_invalid_password_with_max_limit" time="0.418"><system-out><![CDATA[
+
+       +----------------------------------------------------------------------+       
+       |    test_create_user_with_group_and_invalid_password_with_max_limit   |
+       +----------------------------------------------------------------------+       
+
+
+
+
+
+]]></system-out></testcase><testcase classname="test_system_config.test_system_config_opr" name="test_create_user_with_group_and_invalid_password_with_special_char" time="0.468"><system-out><![CDATA[
+
+       +-------------------------------------------------------------------------+       
+       |    test_create_user_with_group_and_invalid_password_with_special_char   |
+       +-------------------------------------------------------------------------+       
+
+
+
+
+
+]]></system-out></testcase><testcase classname="test_system_config.test_system_config_opr" name="test_create_user_with_max_limit_username" time="0.469"><system-out><![CDATA[
+
+       +-----------------------------------------------+       
+       |    test_create_user_with_password_and_group   |
+       +-----------------------------------------------+       
+
+
+
+
+
+]]></system-out></testcase><testcase classname="test_system_config.test_system_config_opr" name="test_create_user_with_password_and_group_using_get" time="0.470"><system-out><![CDATA[
+
+       +-----------------------------------------------+       
+       |    test_create_user_with_password_and_group   |
+       +-----------------------------------------------+       
+
+
+
+
+
+]]></system-out></testcase><testcase classname="test_system_config.test_system_config_opr" name="test_create_user_with_password_and_group_using_getconfig" time="0.720"><system-out><![CDATA[
+
+       +-----------------------------------------------+       
+       |    test_create_user_with_password_and_group   |
+       +-----------------------------------------------+       
+
+
+
+
+
+]]></system-out></testcase><testcase classname="test_system_config.test_system_config_opr" name="test_create_user_with_password_and_invalid_group" time="0.470"><system-out><![CDATA[
+
+       +-------------------------------------------------------+       
+       |    test_create_user_with_password_and_invalid_group   |
+       +-------------------------------------------------------+       
+
+
+
+
+
+]]></system-out></testcase><testcase classname="test_system_config.test_system_config_opr" name="test_create_user_without_password_and_group_using_get" time="0.469"><system-out><![CDATA[
+
+       +--------------------------------------------------+       
+       |    test_create_user_without_password_and_group   |
+       +--------------------------------------------------+       
+
+
+
+
+
+]]></system-out></testcase><testcase classname="test_system_config.test_system_config_opr" name="test_create_user_without_password_and_group_using_get_config" time="0.470"><system-out><![CDATA[
+
+       +--------------------------------------------------+       
+       |    test_create_user_without_password_and_group   |
+       +--------------------------------------------------+       
+
+
+
+
+
+]]></system-out></testcase><testcase classname="test_system_config.test_system_config_opr" name="test_get_eth0_interface_broadcast_object" time="1.273"><system-out><![CDATA[
+
+       +------------------------------------------+       
+       |    test_get_interface_broadcast_object   |
+       +------------------------------------------+       
+
+
+
+
+
+]]></system-out></testcase><testcase classname="test_system_config.test_system_config_opr" name="test_get_eth0_interface_gateway_object" time="1.022"><system-out><![CDATA[
+
+       +----------------------------------------+       
+       |    test_get_interface_gateway_object   |
+       +----------------------------------------+       
+
+
+
+
+
+]]></system-out></testcase><testcase classname="test_system_config.test_system_config_opr" name="test_get_eth0_interface_ip_address_object" time="1.279"><system-out><![CDATA[
+
+       +-------------------------------------------+       
+       |    test_get_interface_ip_address_object   |
+       +-------------------------------------------+       
+
+
+
+
+
+]]></system-out></testcase><testcase classname="test_system_config.test_system_config_opr" name="test_get_eth0_interface_name_object" time="1.225"><system-out><![CDATA[
+
+       +-------------------------------------+       
+       |    test_get_interface_name_object   |
+       +-------------------------------------+       
+
+
+
+
+
+]]></system-out></testcase><testcase classname="test_system_config.test_system_config_opr" name="test_get_eth0_interface_status_broadcast_object" time="0.422"><system-out><![CDATA[
+
+       +-------------------------------------------------+       
+       |    test_get_interface_status_broadcast_object   |
+       +-------------------------------------------------+       
+
+
+
+
+
+]]></system-out></testcase><testcase classname="test_system_config.test_system_config_opr" name="test_get_eth0_interface_status_gateway_object" time="0.472"><system-out><![CDATA[
+
+       +-----------------------------------------------+       
+       |    test_get_interface_status_gateway_object   |
+       +-----------------------------------------------+       
+
+
+
+
+
+]]></system-out></testcase><testcase classname="test_system_config.test_system_config_opr" name="test_get_eth0_interface_status_hw_addr_object" time="0.470"><system-out><![CDATA[
+
+       +----------------------------------------------+       
+       |    test_get_interface_satus_hw_addr_object   |
+       +----------------------------------------------+       
+
+
+
+
+
+]]></system-out></testcase><testcase classname="test_system_config.test_system_config_opr" name="test_get_eth0_interface_status_ip_address_object" time="0.470"><system-out><![CDATA[
+
+       +--------------------------------------------------+       
+       |    test_get_interface_status_ip_address_object   |
+       +--------------------------------------------------+       
+
+
+
+
+
+]]></system-out></testcase><testcase classname="test_system_config.test_system_config_opr" name="test_get_eth0_interface_status_name_object" time="0.469"><system-out><![CDATA[
+
+       +--------------------------------------------+       
+       |    test_get_interface_status_name_object   |
+       +--------------------------------------------+       
+
+
+
+
+
+]]></system-out></testcase><testcase classname="test_system_config.test_system_config_opr" name="test_get_eth0_interface_status_subnet_object" time="0.471"><system-out><![CDATA[
+
+       +----------------------------------------------+       
+       |    test_get_interface_status_subnet_object   |
+       +----------------------------------------------+       
+
+
+
+
+
+]]></system-out></testcase><testcase classname="test_system_config.test_system_config_opr" name="test_get_eth0_interface_subnet_object" time="1.125"><system-out><![CDATA[
+
+       +---------------------------------------+       
+       |    test_get_interface_subnet_object   |
+       +---------------------------------------+       
+
+
+
+
+
+]]></system-out></testcase><testcase classname="test_system_config.test_system_config_opr" name="test_get_eth1_interface_broadcast_object" time="1.225"><system-out><![CDATA[
+
+       +------------------------------------------+       
+       |    test_get_interface_broadcast_object   |
+       +------------------------------------------+       
+
+
+
+
+
+]]></system-out></testcase><testcase classname="test_system_config.test_system_config_opr" name="test_get_eth1_interface_gateway_object" time="1.023"><system-out><![CDATA[
+
+       +----------------------------------------+       
+       |    test_get_interface_gateway_object   |
+       +----------------------------------------+       
+
+
+
+
+
+]]></system-out></testcase><testcase classname="test_system_config.test_system_config_opr" name="test_get_eth1_interface_ip_address_object" time="1.376"><system-out><![CDATA[
+
+       +-------------------------------------------+       
+       |    test_get_interface_ip_address_object   |
+       +-------------------------------------------+       
+
+
+
+
+
+]]></system-out></testcase><testcase classname="test_system_config.test_system_config_opr" name="test_get_eth1_interface_name_object" time="1.023"><system-out><![CDATA[
+
+       +-------------------------------------+       
+       |    test_get_interface_name_object   |
+       +-------------------------------------+       
+
+
+
+
+
+]]></system-out></testcase><testcase classname="test_system_config.test_system_config_opr" name="test_get_eth1_interface_status_broadcast_object" time="0.470"><system-out><![CDATA[
+
+       +-------------------------------------------------+       
+       |    test_get_interface_status_broadcast_object   |
+       +-------------------------------------------------+       
+
+
+
+
+
+]]></system-out></testcase><testcase classname="test_system_config.test_system_config_opr" name="test_get_eth1_interface_status_gateway_object" time="0.520"><failure type="exceptions.AssertionError" message="'PASS' != 'FAIL'&#10;-------------------- &gt;&gt; begin captured logging &lt;&lt; --------------------&#10;polatis: INFO: -----[ create xml for get operation ]-----&#10;&#10;&lt;?xml version=&quot;1.0&quot; ?&gt;&#10;&lt;opsw:system-config xmlns:opsw=&quot;http://www.polatis.com/yang/optical-switch&quot; xmlns:plts=&quot;http://www.polatis.com/yang/polatis-switch&quot;&gt;&#10; &lt;opsw:interface-status&gt;&#10;  &lt;opsw:name&gt;eth1&lt;/opsw:name&gt;&#10;  &lt;opsw:gateway/&gt;&#10; &lt;/opsw:interface-status&gt;&#10;&lt;/opsw:system-config&gt;&#10;&#10;polatis: INFO: -----[ get - response from the switch ]-----&#10;&#10;&#10;&lt;?xml version=&quot;1.0&quot; ?&gt;&#10;&lt;data xmlns=&quot;urn:ietf:params:xml:ns:netconf:base:1.0&quot; xmlns:nc=&quot;urn:ietf:params:xml:ns:netconf:base:1.0&quot;&gt;&#10; &lt;system-config xmlns=&quot;http://www.polatis.com/yang/optical-switch&quot;&gt;&#10;  &lt;interface-status&gt;&#10;   &lt;name&gt;eth1&lt;/name&gt;&#10;   &lt;gateway&gt;0.0.0.0&lt;/gateway&gt;&#10;  &lt;/interface-status&gt;&#10; &lt;/system-config&gt;&#10;&lt;/data&gt;&#10;&#10;&#10;polatis: INFO: -----[ validate system config info ]-----&#10;&#10;&#10;polatis: INFO: gvn_interface : ['eth1', '172.16.1.1']&#10;&#10;&#10;polatis: INFO: parsed_interface : ['eth1', '0.0.0.0']&#10;&#10;&#10;polatis: ERROR: comparision failed : FAIL&#10;&#10;--------------------- &gt;&gt; end captured logging &lt;&lt; ---------------------"><![CDATA[  File "/usr/lib/python2.7/unittest/case.py", line 331, in run
+    testMethod()
+  File "/usr/lib/python2.7/dist-packages/nose/case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "/home/polatis/netconf/view/test_system_config.py", line 257, in test_get_eth1_interface_status_gateway_object
+    interface_name=sysDict['interface_status'].split(',')[6], interface_status_info = eth0_interface_status, subelement = 'gateway')
+  File "/home/polatis/netconf/view/lib/system_config.py", line 670, in get_interface_status
+    nose.tools.assert_equals('PASS', result)
+  File "/usr/lib/python2.7/unittest/case.py", line 515, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/usr/lib/python2.7/unittest/case.py", line 508, in _baseAssertEqual
+    raise self.failureException(msg)
+'\'PASS\' != \'FAIL\'\n-------------------- >> begin captured logging << --------------------\npolatis: INFO: -----[ create xml for get operation ]-----\n\n<?xml version="1.0" ?>\n<opsw:system-config xmlns:opsw="http://www.polatis.com/yang/optical-switch" xmlns:plts="http://www.polatis.com/yang/polatis-switch">\n <opsw:interface-status>\n  <opsw:name>eth1</opsw:name>\n  <opsw:gateway/>\n </opsw:interface-status>\n</opsw:system-config>\n\npolatis: INFO: -----[ get - response from the switch ]-----\n\n\n<?xml version="1.0" ?>\n<data xmlns="urn:ietf:params:xml:ns:netconf:base:1.0" xmlns:nc="urn:ietf:params:xml:ns:netconf:base:1.0">\n <system-config xmlns="http://www.polatis.com/yang/optical-switch">\n  <interface-status>\n   <name>eth1</name>\n   <gateway>0.0.0.0</gateway>\n  </interface-status>\n </system-config>\n</data>\n\n\npolatis: INFO: -----[ validate system config info ]-----\n\n\npolatis: INFO: gvn_interface : [\'eth1\', \'172.16.1.1\']\n\n\npolatis: INFO: parsed_interface : [\'eth1\', \'0.0.0.0\']\n\n\npolatis: ERROR: comparision failed : FAIL\n\n--------------------- >> end captured logging << ---------------------']]></failure><system-out><![CDATA[
+
+       +-----------------------------------------------+       
+       |    test_get_interface_status_gateway_object   |
+       +-----------------------------------------------+       
+
+
+
+
+
+]]></system-out></testcase><testcase classname="test_system_config.test_system_config_opr" name="test_get_eth1_interface_status_hw_addr_object" time="0.472"><system-out><![CDATA[
+
+       +----------------------------------------------+       
+       |    test_get_interface_satus_hw_addr_object   |
+       +----------------------------------------------+       
+
+
+
+
+
+]]></system-out></testcase><testcase classname="test_system_config.test_system_config_opr" name="test_get_eth1_interface_status_ip_address_object" time="0.474"><system-out><![CDATA[
+
+       +--------------------------------------------------+       
+       |    test_get_interface_status_ip_address_object   |
+       +--------------------------------------------------+       
+
+
+
+
+
+]]></system-out></testcase><testcase classname="test_system_config.test_system_config_opr" name="test_get_eth1_interface_status_name_object" time="0.471"><failure type="exceptions.AssertionError" message="'PASS' != 'FAIL'&#10;-------------------- &gt;&gt; begin captured logging &lt;&lt; --------------------&#10;polatis: INFO: -----[ create xml for get operation ]-----&#10;&#10;&lt;?xml version=&quot;1.0&quot; ?&gt;&#10;&lt;opsw:system-config xmlns:opsw=&quot;http://www.polatis.com/yang/optical-switch&quot; xmlns:plts=&quot;http://www.polatis.com/yang/polatis-switch&quot;&gt;&#10; &lt;opsw:interface-status&gt;&#10;  &lt;opsw:name&gt;eth1&lt;/opsw:name&gt;&#10; &lt;/opsw:interface-status&gt;&#10;&lt;/opsw:system-config&gt;&#10;&#10;polatis: INFO: -----[ get - response from the switch ]-----&#10;&#10;&#10;&lt;?xml version=&quot;1.0&quot; ?&gt;&#10;&lt;data xmlns=&quot;urn:ietf:params:xml:ns:netconf:base:1.0&quot; xmlns:nc=&quot;urn:ietf:params:xml:ns:netconf:base:1.0&quot;&gt;&#10; &lt;system-config xmlns=&quot;http://www.polatis.com/yang/optical-switch&quot;&gt;&#10;  &lt;interface-status&gt;&#10;   &lt;name&gt;eth1&lt;/name&gt;&#10;   &lt;ip-address&gt;172.16.100.1&lt;/ip-address&gt;&#10;   &lt;gateway&gt;0.0.0.0&lt;/gateway&gt;&#10;   &lt;subnet&gt;255.255.0.0&lt;/subnet&gt;&#10;   &lt;broadcast&gt;172.16.255.255&lt;/broadcast&gt;&#10;   &lt;hw-addr&gt;00:50:c2:2b:49:5b&lt;/hw-addr&gt;&#10;  &lt;/interface-status&gt;&#10; &lt;/system-config&gt;&#10;&lt;/data&gt;&#10;&#10;&#10;polatis: INFO: -----[ validate system config info ]-----&#10;&#10;&#10;polatis: INFO: gvn_interface : ['eth1', '172.16.100.1', '172.16.1.1', '255.255.0.0', '172.16.255.255', '00:50:c2:2b:49:5b']&#10;&#10;&#10;polatis: INFO: parsed_interface : ['eth1', '172.16.100.1', '0.0.0.0', '255.255.0.0', '172.16.255.255', '00:50:c2:2b:49:5b']&#10;&#10;&#10;polatis: ERROR: comparision failed : FAIL&#10;&#10;--------------------- &gt;&gt; end captured logging &lt;&lt; ---------------------"><![CDATA[  File "/usr/lib/python2.7/unittest/case.py", line 331, in run
+    testMethod()
+  File "/usr/lib/python2.7/dist-packages/nose/case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "/home/polatis/netconf/view/test_system_config.py", line 229, in test_get_eth1_interface_status_name_object
+    interface_status_info = eth0_interface_status, subelement = 'name')
+  File "/home/polatis/netconf/view/lib/system_config.py", line 670, in get_interface_status
+    nose.tools.assert_equals('PASS', result)
+  File "/usr/lib/python2.7/unittest/case.py", line 515, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/usr/lib/python2.7/unittest/case.py", line 508, in _baseAssertEqual
+    raise self.failureException(msg)
+'\'PASS\' != \'FAIL\'\n-------------------- >> begin captured logging << --------------------\npolatis: INFO: -----[ create xml for get operation ]-----\n\n<?xml version="1.0" ?>\n<opsw:system-config xmlns:opsw="http://www.polatis.com/yang/optical-switch" xmlns:plts="http://www.polatis.com/yang/polatis-switch">\n <opsw:interface-status>\n  <opsw:name>eth1</opsw:name>\n </opsw:interface-status>\n</opsw:system-config>\n\npolatis: INFO: -----[ get - response from the switch ]-----\n\n\n<?xml version="1.0" ?>\n<data xmlns="urn:ietf:params:xml:ns:netconf:base:1.0" xmlns:nc="urn:ietf:params:xml:ns:netconf:base:1.0">\n <system-config xmlns="http://www.polatis.com/yang/optical-switch">\n  <interface-status>\n   <name>eth1</name>\n   <ip-address>172.16.100.1</ip-address>\n   <gateway>0.0.0.0</gateway>\n   <subnet>255.255.0.0</subnet>\n   <broadcast>172.16.255.255</broadcast>\n   <hw-addr>00:50:c2:2b:49:5b</hw-addr>\n  </interface-status>\n </system-config>\n</data>\n\n\npolatis: INFO: -----[ validate system config info ]-----\n\n\npolatis: INFO: gvn_interface : [\'eth1\', \'172.16.100.1\', \'172.16.1.1\', \'255.255.0.0\', \'172.16.255.255\', \'00:50:c2:2b:49:5b\']\n\n\npolatis: INFO: parsed_interface : [\'eth1\', \'172.16.100.1\', \'0.0.0.0\', \'255.255.0.0\', \'172.16.255.255\', \'00:50:c2:2b:49:5b\']\n\n\npolatis: ERROR: comparision failed : FAIL\n\n--------------------- >> end captured logging << ---------------------']]></failure><system-out><![CDATA[
+
+       +--------------------------------------------+       
+       |    test_get_interface_status_name_object   |
+       +--------------------------------------------+       
+
+
+
+
+
+]]></system-out></testcase><testcase classname="test_system_config.test_system_config_opr" name="test_get_eth1_interface_status_subnet_object" time="1.326"><system-out><![CDATA[
+
+       +----------------------------------------------+       
+       |    test_get_interface_status_subnet_object   |
+       +----------------------------------------------+       
+
+
+
+
+
+]]></system-out></testcase><testcase classname="test_system_config.test_system_config_opr" name="test_get_eth1_interface_subnet_object" time="1.072"><system-out><![CDATA[
+
+       +---------------------------------------+       
+       |    test_get_interface_subnet_object   |
+       +---------------------------------------+       
+
+
+
+
+
+]]></system-out></testcase><testcase classname="test_system_config.test_system_config_opr" name="test_get_interface" time="2.174"><system-out><![CDATA[
+
+       +-------------------------+       
+       |    test_get_interface   |
+       +-------------------------+       
+
+
+
+
+
+]]></system-out></testcase><testcase classname="test_system_config.test_system_config_opr" name="test_get_interface_status" time="0.472"><failure type="exceptions.AssertionError" message="'PASS' != 'FAIL'&#10;-------------------- &gt;&gt; begin captured logging &lt;&lt; --------------------&#10;polatis: INFO: -----[ create xml for get operation ]-----&#10;&#10;&lt;?xml version=&quot;1.0&quot; ?&gt;&#10;&lt;opsw:system-config xmlns:opsw=&quot;http://www.polatis.com/yang/optical-switch&quot; xmlns:plts=&quot;http://www.polatis.com/yang/polatis-switch&quot;&gt;&#10; &lt;opsw:interface-status/&gt;&#10;&lt;/opsw:system-config&gt;&#10;&#10;polatis: INFO: -----[ get - response from the switch ]-----&#10;&#10;&#10;&lt;?xml version=&quot;1.0&quot; ?&gt;&#10;&lt;data xmlns=&quot;urn:ietf:params:xml:ns:netconf:base:1.0&quot; xmlns:nc=&quot;urn:ietf:params:xml:ns:netconf:base:1.0&quot;&gt;&#10; &lt;system-config xmlns=&quot;http://www.polatis.com/yang/optical-switch&quot;&gt;&#10;  &lt;interface-status&gt;&#10;   &lt;name&gt;eth0&lt;/name&gt;&#10;   &lt;ip-address&gt;10.99.99.230&lt;/ip-address&gt;&#10;   &lt;gateway&gt;10.99.99.254&lt;/gateway&gt;&#10;   &lt;subnet&gt;255.0.0.0&lt;/subnet&gt;&#10;   &lt;broadcast&gt;10.255.255.255&lt;/broadcast&gt;&#10;   &lt;hw-addr&gt;00:50:c2:2b:49:5a&lt;/hw-addr&gt;&#10;  &lt;/interface-status&gt;&#10;  &lt;interface-status&gt;&#10;   &lt;name&gt;eth1&lt;/name&gt;&#10;   &lt;ip-address&gt;172.16.100.1&lt;/ip-address&gt;&#10;   &lt;gateway&gt;0.0.0.0&lt;/gateway&gt;&#10;   &lt;subnet&gt;255.255.0.0&lt;/subnet&gt;&#10;   &lt;broadcast&gt;172.16.255.255&lt;/broadcast&gt;&#10;   &lt;hw-addr&gt;00:50:c2:2b:49:5b&lt;/hw-addr&gt;&#10;  &lt;/interface-status&gt;&#10; &lt;/system-config&gt;&#10;&lt;/data&gt;&#10;&#10;&#10;polatis: INFO: -----[ validate system config info ]-----&#10;&#10;&#10;polatis: INFO: gvn_interface : ['eth0', '10.99.99.230', '10.99.99.254', '255.0.0.0', '10.255.255.255', '00:50:c2:2b:49:5a', 'eth1', '172.16.100.1', '172.16.1.1', '255.255.0.0', '172.16.255.255', '00:50:c2:2b:49:5b']&#10;&#10;&#10;polatis: INFO: parsed_interface : ['eth0', '10.99.99.230', '10.99.99.254', '255.0.0.0', '10.255.255.255', '00:50:c2:2b:49:5a', 'eth1', '172.16.100.1', '0.0.0.0', '255.255.0.0', '172.16.255.255', '00:50:c2:2b:49:5b']&#10;&#10;&#10;polatis: ERROR: comparision failed : FAIL&#10;&#10;--------------------- &gt;&gt; end captured logging &lt;&lt; ---------------------"><![CDATA[  File "/usr/lib/python2.7/unittest/case.py", line 331, in run
+    testMethod()
+  File "/usr/lib/python2.7/dist-packages/nose/case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "/home/polatis/netconf/view/test_system_config.py", line 158, in test_get_interface_status
+    interface_status_info=sysDict['interface_status'].split(','), subelement = 'interface-status')
+  File "/home/polatis/netconf/view/lib/system_config.py", line 670, in get_interface_status
+    nose.tools.assert_equals('PASS', result)
+  File "/usr/lib/python2.7/unittest/case.py", line 515, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/usr/lib/python2.7/unittest/case.py", line 508, in _baseAssertEqual
+    raise self.failureException(msg)
+'\'PASS\' != \'FAIL\'\n-------------------- >> begin captured logging << --------------------\npolatis: INFO: -----[ create xml for get operation ]-----\n\n<?xml version="1.0" ?>\n<opsw:system-config xmlns:opsw="http://www.polatis.com/yang/optical-switch" xmlns:plts="http://www.polatis.com/yang/polatis-switch">\n <opsw:interface-status/>\n</opsw:system-config>\n\npolatis: INFO: -----[ get - response from the switch ]-----\n\n\n<?xml version="1.0" ?>\n<data xmlns="urn:ietf:params:xml:ns:netconf:base:1.0" xmlns:nc="urn:ietf:params:xml:ns:netconf:base:1.0">\n <system-config xmlns="http://www.polatis.com/yang/optical-switch">\n  <interface-status>\n   <name>eth0</name>\n   <ip-address>10.99.99.230</ip-address>\n   <gateway>10.99.99.254</gateway>\n   <subnet>255.0.0.0</subnet>\n   <broadcast>10.255.255.255</broadcast>\n   <hw-addr>00:50:c2:2b:49:5a</hw-addr>\n  </interface-status>\n  <interface-status>\n   <name>eth1</name>\n   <ip-address>172.16.100.1</ip-address>\n   <gateway>0.0.0.0</gateway>\n   <subnet>255.255.0.0</subnet>\n   <broadcast>172.16.255.255</broadcast>\n   <hw-addr>00:50:c2:2b:49:5b</hw-addr>\n  </interface-status>\n </system-config>\n</data>\n\n\npolatis: INFO: -----[ validate system config info ]-----\n\n\npolatis: INFO: gvn_interface : [\'eth0\', \'10.99.99.230\', \'10.99.99.254\', \'255.0.0.0\', \'10.255.255.255\', \'00:50:c2:2b:49:5a\', \'eth1\', \'172.16.100.1\', \'172.16.1.1\', \'255.255.0.0\', \'172.16.255.255\', \'00:50:c2:2b:49:5b\']\n\n\npolatis: INFO: parsed_interface : [\'eth0\', \'10.99.99.230\', \'10.99.99.254\', \'255.0.0.0\', \'10.255.255.255\', \'00:50:c2:2b:49:5a\', \'eth1\', \'172.16.100.1\', \'0.0.0.0\', \'255.255.0.0\', \'172.16.255.255\', \'00:50:c2:2b:49:5b\']\n\n\npolatis: ERROR: comparision failed : FAIL\n\n--------------------- >> end captured logging << ---------------------']]></failure><system-out><![CDATA[
+
+       +--------------------------------+       
+       |    test_get_interface_status   |
+       +--------------------------------+       
+
+
+
+
+
+]]></system-out></testcase></testsuite>

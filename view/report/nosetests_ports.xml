@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite name="nosetests" tests="16" errors="0" failures="0" skip="0"><testcase classname="test_ports.test_ports_opr" name="test_create_invalid_port_label_using_above_max_limit" time="0.729"><system-out><![CDATA[
+
+       +-----------------------------------------------------------+       
+       |    test_create_invalid_port_label_using_above_max_limit   |
+       +-----------------------------------------------------------+       
+
+
+
+
+
+]]></system-out></testcase><testcase classname="test_ports.test_ports_opr" name="test_create_invalid_port_label_using_special_char" time="0.476"><system-out><![CDATA[
+
+       +--------------------------------------------------------+       
+       |    test_create_invalid_port_label_using_special_char   |
+       +--------------------------------------------------------+       
+
+
+
+
+
+]]></system-out></testcase><testcase classname="test_ports.test_ports_opr" name="test_create_port_label_and_validate_with_get" time="0.425"><system-out><![CDATA[
+
+       +---------------------------------------------------+       
+       |    test_create_port_lable_and_validate_with_get   |
+       +---------------------------------------------------+       
+
+
+
+
+
+]]></system-out></testcase><testcase classname="test_ports.test_ports_opr" name="test_create_port_label_and_validate_with_getconfig" time="0.476"><system-out><![CDATA[
+
+       +---------------------------------------------------------+       
+       |    test_create_port_label_and_validate_with_getconfig   |
+       +---------------------------------------------------------+       
+
+
+
+
+
+]]></system-out></testcase><testcase classname="test_ports.test_ports_opr" name="test_delete_port_label_and_validate_with_get" time="0.478"><system-out><![CDATA[
+
+       +---------------------------------------------------------+       
+       |    test_delete_port_lable_label_and_validate_with_get   |
+       +---------------------------------------------------------+       
+
+
+
+
+
+]]></system-out></testcase><testcase classname="test_ports.test_ports_opr" name="test_delete_port_label_and_validate_with_getconfig" time="0.471"><system-out><![CDATA[
+
+       +---------------------------------------------------------+       
+       |    test_delete_port_label_and_validate_with_getconfig   |
+       +---------------------------------------------------------+       
+
+
+
+
+
+]]></system-out></testcase><testcase classname="test_ports.test_ports_opr" name="test_disable_port_state_and_validate_with_get" time="11.034"><system-out><![CDATA[
+
+       +----------------------------------------------------+       
+       |    test_disable_port_state_and_validate_with_get   |
+       +----------------------------------------------------+       
+
+
+
+
+
+]]></system-out></testcase><testcase classname="test_ports.test_ports_opr" name="test_disable_port_state_and_validate_with_get_port_status" time="11.086"><system-out><![CDATA[
+
+       +------------------------------------------------------------+       
+       |    test_disable_port_state_and_validate_with_port_status   |
+       +------------------------------------------------------------+       
+
+
+
+
+
+]]></system-out></testcase><testcase classname="test_ports.test_ports_opr" name="test_disable_port_state_and_validate_with_getconfig" time="11.585"><system-out><![CDATA[
+
+       +----------------------------------------------------------+       
+       |    test_disable_port_state_and_validate_with_getconfig   |
+       +----------------------------------------------------------+       
+
+
+
+
+
+]]></system-out></testcase><testcase classname="test_ports.test_ports_opr" name="test_enable_port_state_and_validate_with_get" time="11.080"><system-out><![CDATA[
+
+       +---------------------------------------------------+       
+       |    test_enable_port_state_and_validate_with_get   |
+       +---------------------------------------------------+       
+
+
+
+
+
+]]></system-out></testcase><testcase classname="test_ports.test_ports_opr" name="test_enable_port_state_and_validate_with_get_port_status" time="11.956"><system-out><![CDATA[
+
+       +-----------------------------------------------------------+       
+       |    test_enable_port_state_and_validate_with_port_status   |
+       +-----------------------------------------------------------+       
+
+
+
+
+
+
+
+
+]]></system-out></testcase><testcase classname="test_ports.test_ports_opr" name="test_enable_port_state_and_validate_with_getconfig" time="11.081"><system-out><![CDATA[
+
+       +---------------------------------------------------------+       
+       |    test_enable_port_state_and_validate_with_getconfig   |
+       +---------------------------------------------------------+       
+
+
+
+
+
+]]></system-out></testcase><testcase classname="test_ports.test_ports_opr" name="test_replace_port_label_and_validate_with_get" time="0.470"><system-out><![CDATA[
+
+       +----------------------------------------------------+       
+       |    test_replace_port_lable_and_validate_with_get   |
+       +----------------------------------------------------+       
+
+
+
+
+
+]]></system-out></testcase><testcase classname="test_ports.test_ports_opr" name="test_replace_port_label_and_validate_with_getconfig" time="0.470"><system-out><![CDATA[
+
+       +----------------------------------------------------------+       
+       |    test_replace_port_label_and_validate_with_getconfig   |
+       +----------------------------------------------------------+       
+
+
+
+
+
+]]></system-out></testcase><testcase classname="test_ports.test_ports_opr" name="test_set_invalid_port_state_using_numbers" time="1.974"><system-out><![CDATA[
+
+       +------------------------------------------------+       
+       |    test_set_invalid_port_state_using_numbers   |
+       +------------------------------------------------+       
+
+
+
+
+
+]]></system-out></testcase><testcase classname="test_ports.test_ports_opr" name="test_set_invalid_port_state_using_special_char" time="0.470"><system-out><![CDATA[
+
+       +-----------------------------------------------------+       
+       |    test_set_invalid_port_state_using_special_char   |
+       +-----------------------------------------------------+       
+
+
+
+
+
+]]></system-out></testcase></testsuite>

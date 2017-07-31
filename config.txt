@@ -1,0 +1,38 @@
+[login_credentials]
+host = 10.99.99.231
+port = 830
+user_name = admin
+password = root
+users = polatisUser,polatisView
+passwords = root,root
+groups = user,view
+cli_username = root
+cli_password = P0lat1s
+timeout = 60
+
+[cross_connects]
+ingress_ports_range = 1-16
+egress_ports_range = 17-24
+
+[system_config]
+interface_status = eth0,10.99.99.231,10.99.99.254,255.0.0.0,10.255.255.255,00:50:c2:2b:48:a3,eth1,192.168.1.1,0.0.0.0,255.255.255.0,192.168.1.255,00:50:c2:2b:48:0f
+interface = eth0,10.99.99.231,10.99.99.254,255.0.0.0,10.255.255.255,eth1,192.168.1.1,0.0.0.0,255.255.255.0,192.168.1.255
+
+[product_information]
+manufacturer = Polatis
+serial_number = 1828
+model_name = N-VST-16x08-HU1-MMHNP-800
+software_version = 6.7.2.2
+
+[has_opm]
+opm = true
+
+[has_oxc]
+oxc = true
+
+[enab_notif]
+notif = NOTIF_PORT_POWER NOTIF_PORT_POWER_WARN NOTIF_SYSTEM NOTIF_ACTIVITY
+
+[port_type]
+prt_1 = INGRESS_PORT
+prt_2 = EGRESS_PORT

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite name="nosetests" tests="1" errors="0" failures="0" skip="0"><testcase classname="test_create_delete_users.test_system_config_opr" name="test_delete_all_users" time="8.411"><system-out><![CDATA[
+
+       +----------------------------+       
+       |    test_delete_all_users   |
+       +----------------------------+       
+
+
+
+
+
+
+
+
+
+
+
+]]></system-out></testcase></testsuite>

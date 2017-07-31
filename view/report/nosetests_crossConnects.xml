@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite name="nosetests" tests="15" errors="0" failures="1" skip="0"><testcase classname="test_crossConnects.test_oxc_opr" name="test_create_oxc_and_validate_with_get" time="0.833"><system-out><![CDATA[
+
+       +--------------------------------------------+       
+       |    test_create_oxc_and_validate_with_get   |
+       +--------------------------------------------+       
+
+
+
+
+
+]]></system-out></testcase><testcase classname="test_crossConnects.test_oxc_opr" name="test_create_oxc_and_validate_with_get_config" time="0.430"><system-out><![CDATA[
+
+       +---------------------------------------------------+       
+       |    test_create_oxc_and_validate_with_get_config   |
+       +---------------------------------------------------+       
+
+
+
+
+
+]]></system-out></testcase><testcase classname="test_crossConnects.test_oxc_opr" name="test_create_oxc_with_invalid_egress_ports" time="1.960"><system-out><![CDATA[
+
+       +------------------------------------------------+       
+       |    test_create_oxc_with_invalid_egress_ports   |
+       +------------------------------------------------+       
+
+
+
+
+
+
+
+
+]]></system-out></testcase><testcase classname="test_crossConnects.test_oxc_opr" name="test_create_oxc_with_invalid_ingress_and_egress_ports" time="0.478"><system-out><![CDATA[
+
+       +------------------------------------------------------------+       
+       |    test_create_oxc_with_invalid_ingress_and_egress_ports   |
+       +------------------------------------------------------------+       
+
+
+
+
+
+]]></system-out></testcase><testcase classname="test_crossConnects.test_oxc_opr" name="test_create_oxc_with_invalid_ingress_ports" time="0.472"><system-out><![CDATA[
+
+       +-------------------------------------------------+       
+       |    test_create_oxc_with_invalid_ingress_ports   |
+       +-------------------------------------------------+       
+
+
+
+
+
+]]></system-out></testcase><testcase classname="test_crossConnects.test_oxc_opr" name="test_delete_oxc_and_validate_with_get" time="0.943"><system-out><![CDATA[
+
+
+
+
+       +--------------------------------------------+       
+       |    test_delete_oxc_and_validate_with_get   |
+       +--------------------------------------------+       
+
+
+
+
+
+]]></system-out></testcase><testcase classname="test_crossConnects.test_oxc_opr" name="test_delete_oxc_and_validate_with_get_config" time="0.893"><system-out><![CDATA[
+
+
+
+
+       +---------------------------------------------------+       
+       |    test_delete_oxc_and_validate_with_get_config   |
+       +---------------------------------------------------+       
+
+
+
+
+
+]]></system-out></testcase><testcase classname="test_crossConnects.test_oxc_opr" name="test_get_oxc_for_invalid_ingress_port" time="0.768"><system-out><![CDATA[
+
+       +--------------------------------------------+       
+       |    test_get_oxc_for_invalid_ingress_port   |
+       +--------------------------------------------+       
+
+
+]]></system-out></testcase><testcase classname="test_crossConnects.test_oxc_opr" name="test_get_oxc_for_invalid_ingress_port_using_text" time="0.720"><failure type="exceptions.AssertionError" message="'PASS' != 'FAIL'&#10;-------------------- &gt;&gt; begin captured logging &lt;&lt; --------------------&#10;polatis: INFO: -----[ create xml for get operation ]-----&#10;&#10;polatis: INFO: xmlstr : &#10;&lt;?xml version=&quot;1.0&quot; ?&gt;&#10;&lt;opsw:cross-connects xmlns:opsw=&quot;http://www.polatis.com/yang/optical-switch&quot; xmlns:plts=&quot;http://www.polatis.com/yang/polatis-switch&quot;&gt;&#10; &lt;opsw:pairs&gt;&#10;  &lt;opsw:ingress&gt;polatis&lt;/opsw:ingress&gt;&#10; &lt;/opsw:pairs&gt;&#10;&lt;/opsw:cross-connects&gt;&#10;&#10;polatis: INFO: -----[ Output from switch ]-----&#10;&#10;&lt;?xml version=&quot;1.0&quot; ?&gt;&#10;&lt;data xmlns=&quot;urn:ietf:params:xml:ns:netconf:base:1.0&quot; xmlns:nc=&quot;urn:ietf:params:xml:ns:netconf:base:1.0&quot;/&gt;&#10;&#10;&#10;--------------------- &gt;&gt; end captured logging &lt;&lt; ---------------------"><![CDATA[  File "/usr/lib/python2.7/unittest/case.py", line 331, in run
+    testMethod()
+  File "/usr/lib/python2.7/dist-packages/nose/case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "/home/polatis/netconf/view/test_crossConnects.py", line 209, in test_get_oxc_for_invalid_ingress_port_using_text
+    ingress_ports='polatis'.split(','), egress_ports=str(oxcDict['invalid_egress_ports'][0]).split(','))
+  File "/home/polatis/netconf/view/lib/crossconnects.py", line 1066, in get_oxc_using_invalid_ingress_port
+    nose.tools.assert_equals('PASS', result)
+  File "/usr/lib/python2.7/unittest/case.py", line 515, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/usr/lib/python2.7/unittest/case.py", line 508, in _baseAssertEqual
+    raise self.failureException(msg)
+'\'PASS\' != \'FAIL\'\n-------------------- >> begin captured logging << --------------------\npolatis: INFO: -----[ create xml for get operation ]-----\n\npolatis: INFO: xmlstr : \n<?xml version="1.0" ?>\n<opsw:cross-connects xmlns:opsw="http://www.polatis.com/yang/optical-switch" xmlns:plts="http://www.polatis.com/yang/polatis-switch">\n <opsw:pairs>\n  <opsw:ingress>polatis</opsw:ingress>\n </opsw:pairs>\n</opsw:cross-connects>\n\npolatis: INFO: -----[ Output from switch ]-----\n\n<?xml version="1.0" ?>\n<data xmlns="urn:ietf:params:xml:ns:netconf:base:1.0" xmlns:nc="urn:ietf:params:xml:ns:netconf:base:1.0"/>\n\n\n--------------------- >> end captured logging << ---------------------']]></failure><system-out><![CDATA[
+
+       +--------------------------------------------+       
+       |    test_get_oxc_for_invalid_ingress_port   |
+       +--------------------------------------------+       
+
+
+]]></system-out></testcase><testcase classname="test_crossConnects.test_oxc_opr" name="test_get_oxc_for_multiple_egress_ports" time="1.192"><system-out><![CDATA[
+
+       +---------------------------------------------+       
+       |    test_get_oxc_for_multiple_egress_ports   |
+       +---------------------------------------------+       
+
+
+
+
+
+
+
+
+]]></system-out></testcase><testcase classname="test_crossConnects.test_oxc_opr" name="test_get_oxc_for_multiple_ingress_ports" time="1.494"><system-out><![CDATA[
+
+       +----------------------------------------------+       
+       |    test_get_oxc_for_multiple_ingress_ports   |
+       +----------------------------------------------+       
+
+
+
+
+
+
+
+
+]]></system-out></testcase><testcase classname="test_crossConnects.test_oxc_opr" name="test_get_oxc_for_single_egress_port" time="1.245"><system-out><![CDATA[
+
+       +------------------------------------------+       
+       |    test_get_oxc_for_single_egress_port   |
+       +------------------------------------------+       
+
+
+
+
+
+
+
+
+]]></system-out></testcase><testcase classname="test_crossConnects.test_oxc_opr" name="test_get_oxc_for_single_ingress_port" time="1.194"><system-out><![CDATA[
+
+       +-------------------------------------------+       
+       |    test_get_oxc_for_single_ingress_port   |
+       +-------------------------------------------+       
+
+
+
+
+
+
+
+
+]]></system-out></testcase><testcase classname="test_crossConnects.test_oxc_opr" name="test_replace_oxc_and_validate_with_get" time="0.894"><system-out><![CDATA[
+
+
+
+
+       +---------------------------------------------+       
+       |    test_replace_oxc_and_validate_with_get   |
+       +---------------------------------------------+       
+
+
+
+
+
+]]></system-out></testcase><testcase classname="test_crossConnects.test_oxc_opr" name="test_replace_oxc_and_validate_with_get_config" time="0.943"><system-out><![CDATA[
+
+
+
+
+       +----------------------------------------------------+       
+       |    test_replace_oxc_and_validate_with_get_config   |
+       +----------------------------------------------------+       
+
+
+
+
+
+]]></system-out></testcase></testsuite>
